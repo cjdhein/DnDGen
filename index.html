@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title></title>
+
+	<link rel="stylesheet" href="media/css/style.css">
+	<link rel="icon" href="images/favicon.png">
+</head>
+
+<body>
+	<div id="page">
+		<div id="mid_panel">
+			<div class="content_wrapper">
+				<div id="title" class="label">
+					<h1>Settlement Generator</h1>
+				</div>
+				<div id="generated">
+					<div class="label">
+						<h2 id="townname"></h2>
+					</div>
+					<table>
+						<tr>
+							<th>
+								<label>Race Relations:</label>
+							</th>
+							<td class="result"> <span id="race"></span> </td>
+							<td class="hide" id="keep_race"> <input type="checkbox"></td>
+						</tr>
+						<tr>
+							<th>							
+								<label>Ruler's Status:</label>
+							</th>
+							<td class="result"> <span id="ruler"></span> </td>
+							<td class="hide" id="keep_ruler"><input type="checkbox"></td>
+						</tr>							
+						<tr>
+							<th>							
+								<label>Notable Traits:</label>
+							</th>
+							<td class="result"> <span id="trait"></span> </td>
+							<td class="hide" id="keep_trait"><input type="checkbox"></td>
+						</tr>
+						<tr>
+							<th>
+								<label>Known For It's:</label>
+							</th>
+							<td class="result"> <span id="known"></span> </td>
+							<td class="hide" id="keep_known"><input type="checkbox"></td>
+						</tr>
+						<tr>
+							<th>
+								<label>Current Calamity:</label>
+							</th>
+							<td class="result"> <span id="calamity"></span> </td>
+							<td class="hide" id="keep_calamity"><input type="checkbox"></td>
+						</tr>							
+					</table>
+					
+				</div>
+				<div id="controls">
+					<button id="generate">Generate</button>
+					<div class="hide" id="keep_name">
+						<label> Keep name? </label><input type="checkbox">
+					</div>
+					<div style="margin-top: 25px;" class="hide">
+						<button id="clear_keeps">Clear all 'Keeps'</button>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="media/js/gen.js"></script>
+</body>
+
+</html>
