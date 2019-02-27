@@ -1,8 +1,9 @@
 # DnDGen
 Automated generators for use by DMs.
+Currently this is just a simple settlement generator.
 
-## Current
-Just a simple settlement generator for now. 
+## Server and Site
+The server simply hosts the raw data and provides a generator at an endpoint for the client to call on. The actual front-end site is in the 'site/' directory and can be run locally after downloading.
 
 
 #### Credits
